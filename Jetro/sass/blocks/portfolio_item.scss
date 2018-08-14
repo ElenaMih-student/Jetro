@@ -1,0 +1,11 @@
+/*------------------------Portfolio item------------*/
+
+.portfolio_item{
+  margin-bottom: 40px;
+      &_img{
+        margin: 25px 0;
+        height: 400px;
+        width: 100%;
+        
+      }
+}

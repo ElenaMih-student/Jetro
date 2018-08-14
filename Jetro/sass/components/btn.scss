@@ -1,0 +1,25 @@
+/*-----------------BUTTON--------------------*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Bebas';
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: $text_white;
+    background: $orange_color;
+
+    &:hover {
+        background: darken($orange_color, 8%);
+    }
+    
+    &_home {
+        width: 56px;
+        height: 31px;
+    }
+
+&_contact{
+  height: 30px;
+  width: 67px;
+}
+}

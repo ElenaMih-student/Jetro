@@ -1,0 +1,14 @@
+.ui_section {
+  margin-bottom: 20px; }
+
+.ui_tatle {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px; }
+
+.ui_list {
+  display: flex;
+  align-items: flex-start; }
+
+/*# sourceMappingURL=ui.css.map */

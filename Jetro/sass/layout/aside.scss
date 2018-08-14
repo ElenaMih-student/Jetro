@@ -1,0 +1,65 @@
+/*----------------------ASAID-------------------*/
+.aside {
+    padding: 25px 0;
+
+    .section {
+        padding: 20px 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    &_title {
+        margin: 0 15px 20px 10px;
+        font-family: "Bebas";
+        font-size: 14px;
+        line-height: 14px;
+        color: #e8603c;
+        text-transform: uppercase;
+        flex-shrink: 0;
+    }
+
+    &_line {
+        background-image: url(../img/line_home.png);
+        background-repeat: repeat-x;
+        height: 14px;
+        flex: 1;
+        margin-right: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $text-color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &_row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -2.5px;
+    }
+
+    &_col {
+        margin: 0 3px 5px;
+    }
+
+    &_gallery {
+        height: 50px;
+        width: 50px;
+        border: 1px solid $orange_color;
+        background: $light_orange_color;
+        
+    }
+    &_gallery:hover{
+            background: darken($light_orange_color, 8%);
+        }
+}
+
