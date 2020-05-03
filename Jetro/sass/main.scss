@@ -1,0 +1,19 @@
+@import "config/fonts";
+@import "config/variables";
+@import "libs/normalize";
+@import "libs/slick";
+@import "common";
+
+@import "pages/ui";
+@import "components/btn";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/line";
+@import "layout/title";
+@import "layout/aside";
+@import "blocks/about";
+@import "blocks/home";
+@import "blocks/blog";
+@import "blocks/portfolio";
+@import "blocks/contact";
+@import "blocks/portfolio_item";
